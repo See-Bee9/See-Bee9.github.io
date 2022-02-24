@@ -1,0 +1,30 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    m
+}
+
+.header {
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+}
+
+.header-item {
+    min-width: 33%;
+    display: inline;
+    font-size: 1.8em;
+}
