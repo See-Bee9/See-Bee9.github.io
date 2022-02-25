@@ -1,12 +1,10 @@
 (function () {
-    const generate = (title, desciption, url) => {
-        return {
-            'title'      : title,
-            'description': desciption,
-            'url'        : url
-        };
-    }
 
+    document.getElementById('hamburger')
+            .addEventListener('click', () => {
+                document.getElementById("navbarBasicExample")
+                        .classList.toggle('is-active');
+            })
     const content = document.querySelector('#content');
     fetch("/json/main.json")
         .then(response => response.json())
@@ -14,7 +12,6 @@
 
     const processData = (data) => {
         for (const location of data) {
-            if ('content' in document.createElement('template')) console.log('We have a template');
             const template = document.querySelector('#content-template');
             const clone    = template.content.cloneNode(true);
 
@@ -24,6 +21,9 @@
 
             clone.querySelector('.description')
                 .innerHTML = location.description;
+
+            clone.querySelector(".preview")
+                 .setAttribute("src", location.image);
 
 
             content.appendChild(clone);

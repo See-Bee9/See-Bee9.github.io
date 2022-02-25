@@ -35,7 +35,7 @@ const getImages = async () => {
                     })
                     console.log(baseName);
                     console.log(bestGuess);
-                    location.image = filename;
+                    location.image = filename.replace('./src','');
                 }
             });
     }

@@ -5,20 +5,48 @@
 
 .content {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+@media screen and (min-width: 1400px){
+    .main{
+        width: 1000px;
+        margin: auto;
+        width: 70%;
+    }
+    div.card{
+    }
+}
+div.card {
+    border: black;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px gray;
+    border-style: solid;
+    margin: 10px;
+    width: 400px;
+    height: 500px;
+    display: flex;
     flex-direction: column;
 }
 
-.row {
+.card-body{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
+    flex-grow: 2;
+    justify-content: center;
+    max-width: 300px;
+    margin: 10px;
 }
+@media only screen and (max-width: 600px) {
+    .card-body{
+        text-align: center;
+    }
 
-.header {
-    width: 100%;
-    background-color: gray;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
+    .preview{
+        margin: auto;
+        width: 50%;
+    }
 
 }
 
@@ -26,4 +54,26 @@
     min-width: 33%;
     display: inline;
     font-size: 1.8em;
+}
+
+.preview{
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    flex-grow: 1;
+    display: block;
+    margin: auto;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+#nav-content{
+    width: 100%;
+    font-size: 1.5em;
+}
+
+a.navbar-item{
+    flex-grow: 1;
 }

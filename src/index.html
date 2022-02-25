@@ -1,26 +1,42 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <title>OBX List</title>
     <link rel="stylesheet" href="main.css"/>
+    <link rel="stylesheet" href="bulma.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 <div class="main">
 
-<!--        <div class="header">-->
-<!--            <div class="header-item">Restaurants</div>-->
-<!--            <div class="header-item">Shopping</div>-->
-<!--            <div class="header-item">Activities</div>-->
-<!--        </div>-->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+               data-target="navbarBasicExample" id="hamburger">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu">
+            <div class="navbar-start" id="nav-content">
+                <a class="navbar-item">Restaurants</a>
+                <a class="navbar-item">Shopping</a>
+                <a class="navbar-item">Activities</a>
+            </div>
+        </div>
 
+    </nav>
     <div class="content" id="content"/>
-
 </div>
 
 <template id="content-template">
-    <div class="row">
+    <div class="card">
         <img class="preview"/>
-        <a class="title" target="_blank"></a>
-        <div class="description"></div>
+        <div class="card-body">
+            <a class="title" target="_blank"></a>
+            <div class="description"></div>
+        </div>
     </div>
 </template>
 

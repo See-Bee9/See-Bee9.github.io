@@ -2,13 +2,22 @@
   {
     "title": "Barefoot Bernie's",
     "url": "https://www.barefootbernies.com/",
-    "description": "Relaxed beach bar.",
-    "image": "./src/img/g_shift.png"
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "/img/g_shift.png",
+    "type": "r"
   },
   {
     "title": "Owens'",
     "url": "https://owensrestaurant.com/",
     "description": "Fine dining.",
-    "image": "./src/img/night-exterior.jpg"
+    "image": "/img/owens-restaurant-nags-head.png",
+    "type": "r"
+  },
+  {
+    "title": "Uncle Ike's'",
+    "url": "https://uncleikesobx.com/",
+    "description": "Delightful pub atmosphere.",
+    "image": "/img/ikes.png",
+    "type": "r"
   }
 ]
