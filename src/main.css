@@ -16,6 +16,15 @@
     }
     div.card{
     }
+
+    #nav-content{
+        width: 100%;
+        font-size: 1.5em;
+    }
+
+    a.navbar-item{
+        flex-grow: 1;
+    }
 }
 div.card {
     border: black;
@@ -69,14 +78,7 @@ div.card {
     padding-right: 10px;
 }
 
-#nav-content{
-    width: 100%;
-    font-size: 1.5em;
-}
 
-a.navbar-item{
-    flex-grow: 1;
-}
 
 .hidden{
     display: none;
