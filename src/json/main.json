@@ -19,5 +19,12 @@
     "description": "Delightful pub atmosphere.",
     "image": "/img/ikes.png",
     "type": "r"
+  },
+  {
+    "title": "Outlets Nag's Head",
+    "url": "https://www.outletsnagshead.com/directory/",
+    "description": "Outlet shopping!",
+    "image": "/img/outlets-nags-head.jpeg",
+    "type": "s"
   }
 ]

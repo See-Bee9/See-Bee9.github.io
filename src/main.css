@@ -77,3 +77,7 @@ div.card {
 a.navbar-item{
     flex-grow: 1;
 }
+
+.hidden{
+    display: none;
+}
