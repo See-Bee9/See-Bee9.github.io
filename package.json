@@ -1,12 +1,17 @@
 {
+  "type": "module",
   "name": "See-Bee9.github.io",
   "version": "1.0.0",
   "description": "",
   "main": "src/main.js",
   "dependencies": {
+    "link-preview-js": "^2.1.13",
     "parcel": "^2.3.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "querystring-es3": "^0.2.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

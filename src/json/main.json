@@ -1,12 +1,14 @@
 [
   {
-    "title" : "Barefoot Bernie's",
+    "title": "Barefoot Bernie's",
     "url": "https://www.barefootbernies.com/",
-    "description": "Relaxed beach bar."
+    "description": "Relaxed beach bar.",
+    "image": "./src/img/g_shift.png"
   },
   {
-    "title" : "Owens'",
+    "title": "Owens'",
     "url": "https://owensrestaurant.com/",
-    "description": "Fine dining."
+    "description": "Fine dining.",
+    "image": "./src/img/night-exterior.jpg"
   }
 ]
