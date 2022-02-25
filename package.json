@@ -3,7 +3,7 @@
   "name": "See-Bee9.github.io",
   "version": "1.0.0",
   "description": "",
-  "main": "src/main.js",
+  "main": "main.js",
   "dependencies": {
     "link-preview-js": "^2.1.13",
     "parcel": "^2.3.2"
