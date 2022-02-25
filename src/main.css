@@ -8,28 +8,37 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
-@media screen and (min-width: 1400px){
-    .main{
+
+@media screen and (min-width: 1400px) {
+    .main {
         width: 1000px;
         margin: auto;
         width: 70%;
     }
-    div.card{
+
+    div.card {
     }
 
-    #nav-content{
+    #nav-content {
         width: 100%;
         font-size: 1.5em;
     }
 
-    a.navbar-item{
+    a.navbar-item {
         flex-grow: 1;
+        justify-content: center;
+        color: white;
     }
+    nav.navbar{
+        background: transparent;
+    }
+
 }
+
 div.card {
     border: black;
     border-radius: 10px;
-    box-shadow: 10px 5px 5px gray;
+    box-shadow: 10px 5px 5px rgba(0,0,0,.2);
     border-style: solid;
     margin: 10px;
     width: 400px;
@@ -38,7 +47,7 @@ div.card {
     flex-direction: column;
 }
 
-.card-body{
+.card-body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -47,12 +56,13 @@ div.card {
     max-width: 300px;
     margin: 10px;
 }
+
 @media only screen and (max-width: 600px) {
-    .card-body{
+    .card-body {
         text-align: center;
     }
 
-    .preview{
+    .preview {
         margin: auto;
         width: 50%;
     }
@@ -65,7 +75,7 @@ div.card {
     font-size: 1.8em;
 }
 
-.preview{
+.preview {
     max-width: 300px;
     max-height: 300px;
     width: auto;
@@ -79,7 +89,14 @@ div.card {
 }
 
 
-
-.hidden{
+.hidden {
     display: none;
+}
+
+
+html {
+    background-image: url("img/hatteras-lighthouse.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
