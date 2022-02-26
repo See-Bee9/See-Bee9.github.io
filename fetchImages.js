@@ -22,27 +22,29 @@ const getImages = async () => {
     for (let i = 0; i < file.length; i++) {
         const location = file[i];
         console.log(location.url);
-        await getLinkPreview(location.url)
-            .then(async d => {
-                if (d.description && !location.description)
-                    location.description = d.description;
+        if (!location.image || !location.description) {
+            await getLinkPreview(location.url)
+                .then(async d => {
+                    if (d.description && !location.description)
+                        location.description = d.description;
 
-                if (d.images && d.images.length > 0) {
-                    const bestGuess = d.images[0].split('?')[0];
-                    console.log(bestGuess);
-                    const baseName  = path.basename(bestGuess);
+                    if (d.images && d.images.length > 0) {
+                        const bestGuess = d.images[0].split('?')[0];
+                        console.log(bestGuess);
+                        const baseName = path.basename(bestGuess);
 
 
-                    const filename = `${fileBase}${baseName}`;
-                    if (!location.image) {
-                        client.get(bestGuess, (response) => {
-                            console.log(filename);
-                            response.pipe(createWriteStream(filename))
-                        })
+                        const filename = `${fileBase}${baseName}`;
+                        if (!location.image) {
+                            client.get(bestGuess, (response) => {
+                                console.log(filename);
+                                response.pipe(createWriteStream(filename))
+                            })
+                        }
+                        if (!location.image) location.image = filename.split('?')[0].replace('./src', '');
                     }
-                    if (!location.image) location.image = filename.split('?')[0].replace('./src', '');
-                }
-            });
+                })
+        }
     }
     writeFile(fileName, JSON.stringify(file), err => {
     })
