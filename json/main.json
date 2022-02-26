@@ -2,29 +2,36 @@
   {
     "title": "Barefoot Bernie's",
     "url": "https://www.barefootbernies.com/",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "description": "Specializing In Exquisite And Refreshing Island Cuisine In A Classy Yet Casual Tropical Ambience.",
     "image": "/img/g_shift.png",
     "type": "r"
   },
   {
     "title": "Owens'",
     "url": "https://owensrestaurant.com/",
-    "description": "Fine dining.",
+    "description": "For 74+ years, Owens' Restaurant has served Fresh Local Seafood in Nags Head Outer Banks 🦀 Steaks, Shellfish, & More Coastal South Cuisine",
     "image": "/img/owens-restaurant-nags-head.png",
     "type": "r"
   },
   {
     "title": "Uncle Ike's'",
     "url": "https://uncleikesobx.com/",
-    "description": "Delightful pub atmosphere.",
+    "description": "Uncle Ikes' Sandbar & Grill is located at 1159 Austin Street in Corolla, NC in the Corolla Light Town Center. We are the perfect restaurant for you because we",
     "image": "/img/ikes.png",
     "type": "r"
   },
   {
     "title": "Outlets Nag's Head",
     "url": "https://www.outletsnagshead.com/directory/",
-    "description": "Outlet shopping!",
+    "description": "Check out our directory at Outlets Nags Head in Nags Head, NC for a list of stores to visit this season.",
     "image": "/img/outlets-nags-head.jpeg",
     "type": "s"
+  },
+  {
+    "title": "Jennette's Pier",
+    "url": "https://www.ncaquariums.com/jennettes-pier",
+    "image": "/img/JPNCASquareLogo.png",
+    "type": "a",
+    "description": "Fishers can rent equipment & supplies at this eco-friendly pier offering fishing lessons."
   }
 ]

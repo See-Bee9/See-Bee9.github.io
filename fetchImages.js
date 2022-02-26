@@ -6,8 +6,8 @@ import { getLinkPreview } from "link-preview-js";
 import path from 'path';
 import * as client from 'https';
 
-const fileName = './src/json/main.json';
-const fileBase = './src/img/';
+const fileName = './json/main.json';
+const fileBase = './img/';
 
 const file = [];
 
@@ -23,19 +23,24 @@ const getImages = async () => {
         const location = file[i];
         await getLinkPreview(location.url)
             .then(async d => {
+                if (d.description && !location.description)
+                    location.description = d.description;
+
                 if (d.images && d.images.length > 0) {
                     const bestGuess = d.images[0];
                     const baseName  = path.basename(bestGuess);
 
 
                     const filename = `${fileBase}${baseName}`;
-                    client.get(bestGuess, (response) => {
-                        console.log(filename);
-                        response.pipe(createWriteStream(filename))
-                    })
+                    if (!location.image) {
+                        client.get(bestGuess, (response) => {
+                            console.log(filename);
+                            response.pipe(createWriteStream(filename))
+                        })
+                    }
                     console.log(baseName);
                     console.log(bestGuess);
-                    location.image = filename.replace('./src','');
+                    if (!location.image) location.image = filename.replace('./src', '');
                 }
             });
     }
