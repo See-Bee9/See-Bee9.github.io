@@ -46,7 +46,14 @@ const getImages = async () => {
                 })
         }
     }
-    writeFile(fileName, JSON.stringify(file), err => {
+    const sorted = [...file].sort(function (a, b) {
+        if (a.title === b.title) return 0
+        if (a.title > b.title) return 1;
+        return -1;
+    })
+    const output = JSON.stringify(sorted);
+
+    writeFile(fileName, output, err => {
     })
 }
 
