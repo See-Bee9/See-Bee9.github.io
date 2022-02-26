@@ -1,1 +1,135 @@
-[{"title":"Barefoot Bernie's","url":"https://www.barefootbernies.com/","description":"Specializing In Exquisite And Refreshing Island Cuisine In A Classy Yet Casual Tropical Ambience.","image":"/img/g_shift.png","type":"r"},{"title":"Owens'","url":"https://owensrestaurant.com/","description":"For 74+ years, Owens' Restaurant has served Fresh Local Seafood in Nags Head Outer Banks 🦀 Steaks, Shellfish, & More Coastal South Cuisine","image":"/img/owens-restaurant-nags-head.png","type":"r"},{"title":"Uncle Ike's'","url":"https://uncleikesobx.com/","description":"Uncle Ikes' Sandbar & Grill is located at 1159 Austin Street in Corolla, NC in the Corolla Light Town Center. We are the perfect restaurant for you because we","image":"/img/ikes.png","type":"r"},{"title":"Outlets Nag's Head","url":"https://www.outletsnagshead.com/directory/","description":"Check out our directory at Outlets Nags Head in Nags Head, NC for a list of stores to visit this season.","image":"/img/outlets-nags-head.jpeg","type":"s"},{"title":"Jennette's Pier","url":"https://www.ncaquariums.com/jennettes-pier","image":"/img/JPNCASquareLogo.png","type":"a","description":"Fishers can rent equipment & supplies at this eco-friendly pier offering fishing lessons."},{"title":"Sam & Omie's","url":"https://www.samandomies.net/","type":"r","description":"Sam and Omies Outer Banks Restaurant Nags Head Seafood Institution of great food","image":"./img/0775b0_c5b61263b858a31eb5c0e1a4f1e6f954.gif"},{"title":"Kitty Hawk Water Sports","url":"https://www.kittyhawkwatersports.com/","description":"For jet ski rentals, parasailing and other adventures in the Outer Banks, call Kitty Hawk Watersports at (252) 441-2756.","image":"./img/kittyhawk-fbog.jpg","type":"a"},{"title":"Bodie Island Light Station","url":"https://www.nps.gov/caha/planyourvisit/bils.htm","type":"a","description":"Bodie Island Light Station history.","image":"./img/bilh_1.jpg"},{"title":"Dowdy Park","url":"https://www.outerbanks.org/listing/dowdy-park/2215/","type":"a","description":"Dowdy Park, located at the corner of South Croatan Highway and Bonnett Street, offers 5 acres of recreation for every age and every ability.","image":"./img/Dowdy-Park-Sway-Fun-Playground-Equipment-Jan-12-2017-f6cd13cb5056b3a_f6cd1fcb-5056-b3a8-493f23aadb6732c1.jpg"},{"title":"Seaside Art Gallery","url":"https://seasideart.com/","type":"s","description":"This Is The Place For Amazing Art On The Web! Fine art by artists from NC, USA, and worldwide. Paintings, Animation Art, Miniature Art, Etchings, the Masters.","image":"./img/SAGLogo.Checkout_1200x.png"},{"title":"Full Throttle Speedway","url":"https://obxfamilyfun.com/full-throttle-speedway/","type":"a","description":"You’ve got the need for speed, and Full Throttle Speedway has what you need. Come check us out for some of the fastest go karts on the Outer Banks.","image":"./img/FTS-17-1.jpg"},{"title":"First Flight Adventure Park","url":"https://www.firstflightadventurepark.com/","type":"a","description":"First Flight Adventure Park is the Outer Bank's newest family fun attraction. Located in Nags Head, NC, we are to only aerial adventure park in the area.","image":"./img/5ebf80523f4c0365235044f0_logo.png"},{"title":"Mutiny Bay Adventure Golf","url":"https://obxfamilyfun.com/mutiny-bay-adventure-golf/","type":"a","description":"OBX Family Fun presents Mutiny Bay Adventure Golf, a top destination for any family visiting the Outer Banks. Putt Putt Fun for the whole family.","image":"./img/family-fun-share.jpg"},{"title":"Seagreen Gallery","url":"https://www.seagreengallery.com/","type":"s","description":"SeaGreen Gallery is a family owned, hands on gallery/store on the OBX. Shop our garden for repurposed art, furniture, seaglass, driftwood, jewelry and more.","image":"./img/Seagreen-gallery.jpg"},{"title":"Kitty Hawk Kites","url":"https://www.kittyhawk.com/","type":"s","description":"Kitty Hawk Kites has a great selection of kites and kiteboarding gear, and offers hang gliding lessons, kayak tours, and kiteboarding lessons to the Outer Banks of North Carolina.","image":"./img/20170818_khk_0454_web.jpg"},{"title":"Forbes Candies","type":"s","url":"https://www.forbescandies.com/","image":"./img/Forbes.png","description":"Homemade candies, candy, fudge, chocolates, peanut brittle, Salt Water Taffy, taffy, brittle."},{"title":"The Dunes","type":"r","url":"https://thedunesrestaurant.com/","description":"Welcome to The Dunes Restaurant, a Nags Head breakfast and dinner restaurant and full service bar all in one. We are a favorite on the Outer Banks dining scene","image":"./img/dunes-logo_0.png"}]
+[
+  {
+    "title": "Barefoot Bernie's",
+    "url": "https://www.barefootbernies.com/",
+    "description": "Specializing In Exquisite And Refreshing Island Cuisine In A Classy Yet Casual Tropical Ambience.",
+    "image": "/img/g_shift.png",
+    "type": "r"
+  },
+  {
+    "title": "Owens'",
+    "url": "https://owensrestaurant.com/",
+    "description": "For 74+ years, Owens' Restaurant has served Fresh Local Seafood in Nags Head Outer Banks 🦀 Steaks, Shellfish, & More Coastal South Cuisine",
+    "image": "/img/owens-restaurant-nags-head.png",
+    "type": "r"
+  },
+  {
+    "title": "Uncle Ike's'",
+    "url": "https://uncleikesobx.com/",
+    "description": "Uncle Ikes' Sandbar & Grill is located at 1159 Austin Street in Corolla, NC in the Corolla Light Town Center. We are the perfect restaurant for you because we",
+    "image": "/img/ikes.png",
+    "type": "r"
+  },
+  {
+    "title": "Outlets Nag's Head",
+    "url": "https://www.outletsnagshead.com/directory/",
+    "description": "Check out our directory at Outlets Nags Head in Nags Head, NC for a list of stores to visit this season.",
+    "image": "/img/outlets-nags-head.jpeg",
+    "type": "s"
+  },
+  {
+    "title": "Jennette's Pier",
+    "url": "https://www.ncaquariums.com/jennettes-pier",
+    "image": "/img/JPNCASquareLogo.png",
+    "type": "a",
+    "description": "Fishers can rent equipment & supplies at this eco-friendly pier offering fishing lessons."
+  },
+  {
+    "title": "Sam & Omie's",
+    "url": "https://www.samandomies.net/",
+    "type": "r",
+    "description": "Sam and Omies Outer Banks Restaurant Nags Head Seafood Institution of great food",
+    "image": "./img/0775b0_c5b61263b858a31eb5c0e1a4f1e6f954.gif"
+  },
+  {
+    "title": "Kitty Hawk Water Sports",
+    "url": "https://www.kittyhawkwatersports.com/",
+    "description": "For jet ski rentals, parasailing and other adventures in the Outer Banks, call Kitty Hawk Watersports at (252) 441-2756.",
+    "image": "./img/kittyhawk-fbog.jpg",
+    "type": "a"
+  },
+  {
+    "title": "Bodie Island Light Station",
+    "url": "https://www.nps.gov/caha/planyourvisit/bils.htm",
+    "type": "a",
+    "description": "Bodie Island Light Station history.",
+    "image": "./img/bilh_1.jpg"
+  },
+  {
+    "title": "Dowdy Park",
+    "url": "https://www.outerbanks.org/listing/dowdy-park/2215/",
+    "type": "a",
+    "description": "Dowdy Park, located at the corner of South Croatan Highway and Bonnett Street, offers 5 acres of recreation for every age and every ability.",
+    "image": "./img/Dowdy-Park-Sway-Fun-Playground-Equipment-Jan-12-2017-f6cd13cb5056b3a_f6cd1fcb-5056-b3a8-493f23aadb6732c1.jpg"
+  },
+  {
+    "title": "Seaside Art Gallery",
+    "url": "https://seasideart.com/",
+    "type": "s",
+    "description": "This Is The Place For Amazing Art On The Web! Fine art by artists from NC, USA, and worldwide. Paintings, Animation Art, Miniature Art, Etchings, the Masters.",
+    "image": "./img/SAGLogo.Checkout_1200x.png"
+  },
+  {
+    "title": "Full Throttle Speedway",
+    "url": "https://obxfamilyfun.com/full-throttle-speedway/",
+    "type": "a",
+    "description": "You’ve got the need for speed, and Full Throttle Speedway has what you need. Come check us out for some of the fastest go karts on the Outer Banks.",
+    "image": "./img/FTS-17-1.jpg"
+  },
+  {
+    "title": "First Flight Adventure Park",
+    "url": "https://www.firstflightadventurepark.com/",
+    "type": "a",
+    "description": "First Flight Adventure Park is the Outer Bank's newest family fun attraction. Located in Nags Head, NC, we are to only aerial adventure park in the area.",
+    "image": "./img/5ebf80523f4c0365235044f0_logo.png"
+  },
+  {
+    "title": "Mutiny Bay Adventure Golf",
+    "url": "https://obxfamilyfun.com/mutiny-bay-adventure-golf/",
+    "type": "a",
+    "description": "OBX Family Fun presents Mutiny Bay Adventure Golf, a top destination for any family visiting the Outer Banks. Putt Putt Fun for the whole family.",
+    "image": "./img/family-fun-share.jpg"
+  },
+  {
+    "title": "Seagreen Gallery",
+    "url": "https://www.seagreengallery.com/",
+    "type": "s",
+    "description": "SeaGreen Gallery is a family owned, hands on gallery/store on the OBX. Shop our garden for repurposed art, furniture, seaglass, driftwood, jewelry and more.",
+    "image": "./img/Seagreen-gallery.jpg"
+  },
+  {
+    "title": "Kitty Hawk Kites",
+    "url": "https://www.kittyhawk.com/",
+    "type": "s",
+    "description": "Kitty Hawk Kites has a great selection of kites and kiteboarding gear, and offers hang gliding lessons, kayak tours, and kiteboarding lessons to the Outer Banks of North Carolina.",
+    "image": "./img/20170818_khk_0454_web.jpg"
+  },
+  {
+    "title": "Forbes Candies",
+    "type": "s",
+    "url": "https://www.forbescandies.com/",
+    "image": "./img/Forbes.png",
+    "description": "Homemade candies, candy, fudge, chocolates, peanut brittle, Salt Water Taffy, taffy, brittle."
+  },
+  {
+    "title": "The Dunes",
+    "type": "r",
+    "url": "https://thedunesrestaurant.com/",
+    "description": "Welcome to The Dunes Restaurant, a Nags Head breakfast and dinner restaurant and full service bar all in one. We are a favorite on the Outer Banks dining scene",
+    "image": "./img/dunes-logo_0.png"
+  },
+  {
+    "title": "Duck Donuts",
+    "type": "r",
+    "url": "https://www.duckdonuts.com//",
+    "description": "From sweet to savory and everything in between, Duck Donuts has something for everyone. Customize your selection and we’ll make it fresh to order. Stop by our donut shop today!",
+    "image": "./img/Social-Share.jpg"
+  },
+  {
+    "title": "Downtown Bookstore Manteo",
+    "type": "s",
+    "url": "https://www.duckscottage.com/",
+    "image": "./img/canvalogo.png",
+    "description": "Downtown Books is the independent bookstore on Roanoke Island and serves the entire Outer Banks"
+  }
+]
