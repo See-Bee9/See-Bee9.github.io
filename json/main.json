@@ -1,8 +1,24 @@
 [
   {
-    "url": "https://www.h2obxwaterpark.com/",
-    "type": "a",
-    "image": "./img/h20bxlogo.png"
+    "title": "Rundown Cafe",
+    "url": "https://www.rundowncafe.com/",
+    "type": "r",
+    "description": "Enjoy Outer Banks Dining at its finest! The Rundown Cafe is an Outer Banks ocean view restaurant located in Kitty Hawk, NC.",
+    "image": "./img/29.jpg"
+  },
+  {
+    "title": "Ladels",
+"description":"Ladles was established on the goodness of fresh ingredients and strives to live up to our customer’s love of homemade soups and sandwiches",
+    "url": "https://www.ladlessoups.com/",
+    "type": "r",
+    "image": "./img/ladles-logo-1.png"
+  },
+  {
+    "title":"Front Porch Cafe",
+    "url": "https://frontporchcafe.com/",
+    "type": "r",
+    "description": "Every town has their local coffee shop. On the Outer Banks of North Carolina, Front Porch Cafe is that spot.",
+    "image": "./img/2_sizes_coffee_1200x.jpg"
   },
   {
     "title": "Barefoot Bernie's",
@@ -150,5 +166,12 @@
     "description": "Uncle Ikes' Sandbar & Grill is located at 1159 Austin Street in Corolla, NC in the Corolla Light Town Center. We are the perfect restaurant for you because we",
     "image": "/img/ikes.png",
     "type": "r"
+  },
+  {
+    "title":"H2OBX Waterpark",
+    "description": "EVERYONE HAS A HOMETOWN WATERPARK, BUT A TRIP TO H2OBX IS A TOP THING TO DO IN THE OUTER BANKS!",
+    "url": "https://www.h2obxwaterpark.com/",
+    "type": "a",
+    "image": "./img/h20bxlogo.png"
   }
 ]
